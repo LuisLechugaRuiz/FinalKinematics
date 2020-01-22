@@ -88,8 +88,8 @@ y1 = 0
 x2 = a12*cos(theta1)
 y2 = a12*sin(theta1)
 
-x3 = x2+a23*cos(theta2)
-y3 = y2+a23*sin(theta2)
+x3 = x2+a23*cos(theta1+theta2)
+y3 = y2+a23*sin(theta1+theta2)
 
 
 J = [y1 y2 y3;-x1 -x2 -x3;1 1 1]
